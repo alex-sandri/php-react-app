@@ -1,0 +1,15 @@
+.User {
+  padding: 1rem;
+  border-radius: 1rem;
+
+  background-color: grey;
+}
+
+.User p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.User small::before {
+  content: '#';
+}
